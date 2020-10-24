@@ -48,7 +48,7 @@
    (fg-table "#222291")
    (fg-dim "dim gray")
    (fg-slight-dim "grey70")
-   (bg "#fffff8")
+   (bg "#f5f2f0")
    (bg-light "#ddddd8")
    (fg-light "#ddddd8")
    (bg-highlight "#FFF1AA")
