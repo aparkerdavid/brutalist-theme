@@ -78,7 +78,7 @@
    `(fringe ((t (:background ,bg :foreground ,fg))))
    `(highlight ((t nil)))
    `(lazy-highlight ((t (:background ,bg-highlight-3 :slant italic))))
-   `(hl-line ((t (:background "#eeeee8"))))
+   `(hl-line ((t (:background ,bg-highlight-dim))))
    `(ido-first-match ((t (:foreground ,fg))))
    `(ido-only-match ((t (:foreground ,fg))))
    `(ido-subdir ((t (:foreground ,fg))))
