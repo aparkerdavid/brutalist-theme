@@ -53,7 +53,7 @@
    `(default ((t (:background ,bg :foreground ,fg))))
    `(button ((t (:foreground ,fg :underline t))))
    `(cursor ((t (:background ,cursor))))
-   ;; `(custom-variable-tag ((t (:foreground ,fg :weight bold))))
+   `(custom-variable-tag ((t (:foreground ,fg :weight bold))))
    `(default-italic ((t (:italic t :slant italic))))
    `(italic ((t (:slant italic))))
    `(error ((t (:inherit fixed-pitch :foreground ,fg :weight bold))))
