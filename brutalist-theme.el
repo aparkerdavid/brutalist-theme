@@ -65,7 +65,7 @@
    (powerline2 "grey40")
 
    (string "blue")
-   (cursor "white smoke")
+   (cursor "OrangeRed2")
 
    (paren-match "blue")
    (paren-mismatch "red"))
