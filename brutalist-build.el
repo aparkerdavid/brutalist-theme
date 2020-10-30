@@ -86,8 +86,9 @@
    `(link ((t (:foreground ,string :underline t ))))
    `(minibuffer-prompt ((t (:foreground ,fg :weight bold))))
    ;; `(mode-line ((t (:inherit fixed-pitch :background ,bg-light :foreground ,fg :height 0.8))))
-   ;; `(mode-line-buffer ((t (:foreground ,fg :weight bold))))
-   ;; `(mode-line-inactive ((t (:background ,bg-light :foreground ,bg-light :height 0.8))))
+   `(mode-line ((t (:background ,bg-light :foreground ,fg :height 0.8))))
+   `(mode-line-buffer ((t (:foreground ,fg :weight bold))))
+   `(mode-line-inactive ((t (:background ,bg-light :foreground ,bg-light :height 0.8))))
    ;; `(mode-line-minor-mode ((t (:weight ultra-light))))
    `(modeline ((t (:background ,bg :foreground ,fg :height 0.8))))
    `(region ((t (:background ,bg-highlight :foreground ,fg :inverse-video nil))))
@@ -125,8 +126,8 @@
    `(org-tag ((t (:inherit fixed-pitch :inherit bold))))
 
    ;; powerline
-   ;; `(powerline-active1 ((t (:background ,powerline1 :foreground ,fg-light :inherit mode-line))))
-   ;; `(powerline-active2 ((t (:background ,powerline2 :foreground ,fg-light :inherit mode-line))))
+   `(powerline-active1 ((t (:background ,powerline1 :foreground ,fg-light :inherit mode-line))))
+   `(powerline-active2 ((t (:background ,powerline2 :foreground ,fg-light :inherit mode-line))))
 
    ;; message-mode, notmuch and gnus
    `(gnus-header-content ((t (:foreground ,fg))))
