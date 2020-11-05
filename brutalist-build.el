@@ -77,6 +77,7 @@
    `(font-lock-warning-face ((t (:inherit error))))
    `(fringe ((t (:background ,bg :foreground ,fg))))
    `(highlight ((t nil)))
+   `(warning ((t (:background ,diff-removed-highlight :foreground ,fg))))
    `(lazy-highlight ((t (:background ,bg-highlight-3 :slant italic))))
    `(hl-line ((t (:background ,bg-highlight-dim))))
    `(ido-first-match ((t (:foreground ,fg))))
