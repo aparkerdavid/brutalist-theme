@@ -65,11 +65,9 @@
    (powerline2 "grey40")
 
    (string "blue")
-   ;; (string "#07a")
    (cursor "OrangeRed2")
 
    (paren-match "blue")
-   ;; (paren-match "#07a")
    (paren-mismatch "OrangeRed2"))
 
   (brutalist-build-custom-theme 'brutalist))
