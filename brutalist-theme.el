@@ -67,7 +67,7 @@
    (string "blue")
    (cursor "OrangeRed2")
 
-   (paren-match "blue")
+   (paren-match "ForestGreen")
    (paren-mismatch "OrangeRed2"))
 
   (brutalist-build-custom-theme 'brutalist))
