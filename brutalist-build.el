@@ -91,7 +91,7 @@
    `(mode-line-inactive ((t (:background ,bg-light :foreground ,bg-light))))
    ;; `(mode-line-minor-mode ((t (:weight ultra-light))))
    `(modeline ((t (:background ,bg :foreground ,fg))))
-   `(region ((t (:background ,bg-highlight :foreground ,fg :inverse-video nil))))
+   `(region ((t (:background ,string :foreground ,bg))))
    `(slime-repl-inputed-output-face ((t (:foreground ,fg))))
    `(whitespace-line ((t (:background ,bg-highlight-2 :foreground ,fg))))
 
