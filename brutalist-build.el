@@ -314,8 +314,8 @@
    ;; auto-dim-other-buffers
    `(auto-dim-other-buffers-face ((t (:background ,bg-light))))
    ;; lsp
-   `(lsp-modeline-code-actions-preferred-face ((t (:foreground ,fg :background bg-highlight-3))))
-   `(lsp-ui-sideline-code-action   ((t (:foreground ,fg :background bg-highlight-3))))
+   `(lsp-modeline-code-actions-preferred-face ((t (:foreground ,fg :background ,bg-highlight-3))))
+   `(lsp-ui-sideline-code-action   ((t (:foreground ,fg :background ,bg-highlight-3))))
    ))
 
 
