@@ -52,8 +52,8 @@
    (bg-light "#dedbd9")
    (fg-light "#dedbd9")
    (bg-highlight "#FFF1AA")
-   (bg-highlight-2 "LightCyan")
-   (bg-highlight-3 "LightGreen")
+   (bg-highlight-2 "white")
+   (bg-highlight-3 "#a4f4a3")
    (bg-highlight-dim "#eeeae8")
 
    (diff-added "#e9ffe9")

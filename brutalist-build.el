@@ -236,7 +236,8 @@
    `(parenthesis ((t (:foreground ,fg-slight-dim))))
 
    ;; parens - other
-   `(sp-show-pair-match-face ((t (:foreground ,paren-match :weight bold))))
+   `(sp-show-pair-match-face ((t (:background ,bg-highlight-2))))
+   `(sp-show-pair-match-content-face ((t (:background ,bg-highlight-2))))
    `(sp-show-pair-mismatch-face ((t (:background ,paren-mismatch :foreground ,paren-match :weight bold))))
    `(show-paren-match ((t (:background ,bg-highlight-2))))
    `(show-paren-mismatch ((t (:background ,paren-mismatch :foreground ,paren-match :weight bold))))
