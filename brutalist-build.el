@@ -238,7 +238,7 @@
    ;; parens - other
    `(sp-show-pair-match-face ((t (:foreground ,paren-match :weight bold))))
    `(sp-show-pair-mismatch-face ((t (:background ,paren-mismatch :foreground ,paren-match :weight bold))))
-   `(show-paren-match ((t (:foreground ,paren-match :weight bold))))
+   `(show-paren-match ((t (:background ,bg-highlight-3 :weight bold))))
    `(show-paren-mismatch ((t (:background ,paren-mismatch :foreground ,paren-match :weight bold))))
 
    ;; sh
