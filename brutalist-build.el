@@ -108,9 +108,9 @@
    `(org-done ((t (:inherit fixed-pitch :foreground ,fg-light))))
    `(org-hide ((t (:inherit fixed-pitch :foreground ,bg))))
    ;; use :overline to give headings more top margin
-   `(org-level-1 ((t (:foreground ,fg :weight semi-bold :height 1.3))))
-   `(org-level-2 ((t (:foreground ,fg :weight semi-bold :height 1.1 :overline ,bg))))
-   `(org-level-3 ((t (:foreground ,fg :weight semi-bold :height 1.1 :overline ,bg))))
+   `(org-level-1 ((t (:foreground ,fg :height 2 :family "Linux Biolinum"))))
+   `(org-level-2 ((t (:foreground ,fg :height 1.5 :overline ,bg :family "Linux Biolinum"))))
+   `(org-level-3 ((t (:foreground ,fg :height 1.25 :overline ,bg :family "Linux Biolinum"))))
    `(org-level-4 ((t (:foreground ,fg :weight semi-bold :height 1.1 :overline ,bg))))
    `(org-level-5 ((t (:foreground ,fg :weight semi-bold :height 1.1 :overline ,bg))))
    `(org-level-6 ((t (:foreground ,fg :weight semi-bold :height 1.1 :overline ,bg))))
