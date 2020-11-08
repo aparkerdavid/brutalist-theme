@@ -95,6 +95,12 @@
    `(slime-repl-inputed-output-face ((t (:foreground ,fg))))
    `(whitespace-line ((t (:background ,bg-highlight-2 :foreground ,fg))))
 
+   ;; DOOM Emacs
+   `(doom-dashboard-banner ((t (:background ,bg))))
+   `(doom-dashboard-menu-title ((t (:weight normal))))
+   `(doom-dashboard-loaded ((t (:background ,bg :slant italic))))
+   `(doom-dashboard-footer-icon ((t (:foreground ,fg-dim))))
+
    ;; org
    `(org-agenda-date ((t (:foreground ,fg :height 1.2))))
    `(org-agenda-date-today ((t (:foreground ,fg :weight bold :height 1.4))))
