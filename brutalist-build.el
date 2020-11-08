@@ -79,7 +79,7 @@
    `(highlight ((t nil)))
    `(warning ((t (:background ,diff-removed :foreground ,fg))))
    `(lazy-highlight ((t (:background ,bg-highlight-3 :slant italic))))
-   `(hl-line ((t (:background ,bg-highlight-dim))))
+   `(hl-line ((t (:inverse-video t))))
    `(ido-first-match ((t (:foreground ,fg))))
    `(ido-only-match ((t (:foreground ,fg))))
    `(ido-subdir ((t (:foreground ,fg))))
