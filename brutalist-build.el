@@ -83,7 +83,7 @@
    `(ido-first-match ((t (:foreground ,fg))))
    `(ido-only-match ((t (:foreground ,fg))))
    `(ido-subdir ((t (:foreground ,fg))))
-   `(isearch ((t (:background ,bg-highlight-dim :foreground ,fg))))
+   `(isearch ((t (:background ,bg-highlight-3 :foreground ,fg))))
    `(link ((t (:foreground ,string :underline t ))))
    `(minibuffer-prompt ((t (:foreground ,fg :weight bold))))
    `(mode-line ((t (:background ,bg-light :foreground ,fg))))
@@ -112,6 +112,7 @@
    `(org-verbatim ((t (:inherit fixed-pitch :foreground ,fg :weight semi-bold))))
    `(org-date ((t (:inherit fixed-pitch :foreground ,fg) :underline)))
    `(org-hide ((t (:inherit fixed-pitch :foreground ,bg))))
+
    ;; use :overline to give headings more top margin
    `(org-level-1 ((t (:inherit variable-pitch :foreground ,fg :height 1.95 :family))))
    `(org-level-2 ((t (:inherit variable-pitch :foreground ,fg :height 1.65 :overline ,bg))))
