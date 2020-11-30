@@ -64,8 +64,12 @@
    (powerline1 "grey22")
    (powerline2 "grey40")
 
-   (kelly "#00a241")
    (blue "blue")
+
+   (ochre "#dba300")
+   (kelly "#00a241")
+   (berry "#912273")
+
    (string "blue")
    (cursor "OrangeRed2")
 
