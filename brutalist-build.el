@@ -101,14 +101,15 @@
    `(doom-dashboard-loaded ((t (:background ,bg :slant italic))))
    `(doom-dashboard-footer-icon ((t (:foreground ,fg-dim))))
 
+
    ;; org
    `(org-agenda-date ((t (:foreground ,fg :height 1.2))))
    `(org-agenda-date-today ((t (:foreground ,fg :weight bold :height 1.4))))
    `(org-agenda-date-weekend ((t (:foreground ,fg :weight normal))))
    `(org-agenda-structure ((t (:foreground ,fg :weight bold))))
-   `(org-block ((t (:inherit fixed-pitch :foreground ,fg))))
-   `(org-block-begin-line ((t (:inherit fixed-pitch :foreground ,fg-light :height 0.8))))
-   `(org-block-end-line ((t (:inherit fixed-pitch :foreground ,fg-light :height 0.8))))
+   `(org-block ((t (:inherit fixed-pitch :foreground ,fg :background ,bg-highlight-dim))))
+   `(org-block-begin-line ((t (:inherit fixed-pitch :foreground ,fg-light :background ,bg-highlight-dim))))
+   `(org-block-end-line ((t (:inherit org-block-begin-line))))
    `(org-verbatim ((t (:inherit fixed-pitch :foreground ,fg :weight semi-bold))))
    `(org-date ((t (:inherit fixed-pitch :foreground ,fg) :underline)))
    `(org-hide ((t (:inherit fixed-pitch :foreground ,bg))))
