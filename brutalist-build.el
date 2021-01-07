@@ -79,7 +79,7 @@
    `(highlight ((t nil)))
    `(warning ((t (:background ,diff-removed :foreground ,fg))))
    `(lazy-highlight ((t (:background ,bg-highlight-3 :slant italic))))
-   `(hl-line ((t (:inverse-video t))))
+   `(hl-line ((t (:background ,bg-light))))
    `(ido-first-match ((t (:foreground ,fg))))
    `(ido-only-match ((t (:foreground ,fg))))
    `(ido-subdir ((t (:foreground ,fg))))
@@ -178,16 +178,16 @@
    `(magit-head ((t (:inherit fixed-pitch :foreground ,fg-table :underline t :weight bold))))
    `(magit-log-author ((t (:inherit fixed-pitch :foreground ,fg-dim))))
    `(magit-section-heading ((t (:inherit fixed-pitch
-                                         :weight semi-bold
-                                         :underline t
-                                         :height 1.2))))
+                                :weight semi-bold
+                                :underline t
+                                :height 1.2))))
    `(magit-header-line ((t (:inherit fixed-pitch))))
    `(magit-header-line-key ((t (:inherit fixed-pitch))))
    `(magit-section-highlight ((t (:fg ,fg))))
 
    `(git-commit-comment-branch ((t (:inherit magit-head))))
    `(git-commit-known-pseudo-header ((t (:inherit font-lock-keyword-face
-                                                  :box (:line-width 1 :color ,fg-slight-dim)))))
+                                         :box (:line-width 1 :color ,fg-slight-dim)))))
    `(git-commit-summary ((t (:foreground ,fg :weight bold))))
 
    ;; diff
